@@ -9,9 +9,31 @@
     </p>
 </div>
 
-1. Install Datalad
-2. Datalad clone repo
-3. Do whatever
-4. To upload: Datalad save ("git add" equivalent) - tracks changes locally
-5. TBD - how to push up?
+<table>
+  <tr>
+   <td>
+<strong>Section</strong>
+   </td>
+   <td><strong>Content</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>View the data  
+   </td>
+   <td>How to view the existing segmentations in the repository
+   </td>
+  </tr>
+  <tr>
+   <td>Download the data
+   </td>
+   <td>How to download the existing segmentations to your own computer to use
+   </td>
+  </tr>
+  <tr>
+   <td>Upload new data
+   </td>
+   <td>How to upload new segmentations or images to the repository
+   </td>
+  </tr>
+</table>
         
