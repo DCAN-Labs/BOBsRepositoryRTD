@@ -20,6 +20,7 @@ We encourage everyone interested to take part in the open repository! Here are s
 ## Where else can I find information?
 
 Links:
+
 * [BOBs Repository on Open Science Framework (OSF)](https://osf.io/wdr78/)
 * [BOBs Repository on AWS](https://registry.opendata.aws/bobsrepository/)
 * [Masonic Institute for the Developing Brain (MIDB)](https://midb.umn.edu/)
