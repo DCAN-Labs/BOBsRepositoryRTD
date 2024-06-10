@@ -5,5 +5,5 @@ plugins:
 docs_dir: docs
 nav:
   - Overview: 
-      - About: intro.md
-      - Table of Contents: index.md
+      - About: index.md
+      - Table of Contents: contents.md
