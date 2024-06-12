@@ -4,7 +4,7 @@
 
 ### Fill out a google form with your information
 
-This form will ask for your name/group and institution, what changes/additions you have made, where researchers can find documentation on your data and/or segmentation protocol, and how you plan to send your segmentations.
+This form will ask for your name/group and institution, what changes/additions you have made, where researchers can find documentation on your data and/or segmentation protocol, and how you plan to send your contributions to MIDB.
 
 [Submit a BOBs Repository Contribution] - ** Add google form here
 
