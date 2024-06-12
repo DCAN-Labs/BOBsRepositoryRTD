@@ -16,21 +16,21 @@
    </td>
   </tr>
   <tr>
-   <td>View the data  
+   <td>About  
    </td>
-   <td>How to view the existing segmentations in the repository
+   <td>Explanation of the BOBs Repository
    </td>
   </tr>
   <tr>
-   <td>Download the data
+   <td>Access the Repository
    </td>
-   <td>How to download the existing segmentations to your own computer to use
+   <td>How to view or download the existing segmentations
    </td>
   </tr>
   <tr>
    <td>Upload new data
    </td>
-   <td>How to upload new segmentations or images to the repository
+   <td>How to contribute new segmentations or images to the repository
    </td>
   </tr>
 </table>
