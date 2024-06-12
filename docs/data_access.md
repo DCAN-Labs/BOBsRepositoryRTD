@@ -1,4 +1,4 @@
-# How to Access Data
+# How to Access the Repository
   
 ## Viewing the data on BrainBox - *TO DO: add screenshots*
 
@@ -17,13 +17,13 @@ After selecting a specific anatomical to view, remember to also select the label
 
 ## How to Download 
 
-### Quick Download Option
+### Option 1: Quick Download Option
 
 Click [here](https://bobsrepository.s3.amazonaws.com/bobsrepository.zip) to download a zip file containing the full contents of the repository via your web browser 
 
-### Using Cyberduck to download data locally
+### Option 2: Using Cyberduck to download data locally
 
-We recommend using [Cyberduck](https://cyberduck.io/) to download the BOBs Repository image files locally. After downloading and opening Cyberduck, do the following to connect to the data repository bucket stored on Amazon Web Services S3 bucket:
+You can also use [Cyberduck](https://cyberduck.io/) to download the BOBs Repository image files locally. We often recommend this route as you can view the file structure and select individual files before downloading. After downloading and opening Cyberduck, do the following to connect to the data repository bucket stored on Amazon Web Services S3 bucket:
 
 1. Click *Open Connection*
 2. In the dropdown menu at the top of the dialogue box, select *Amazon S3* and the Server box will automatically populate with *s3.amazonaws.com*
@@ -34,7 +34,7 @@ We recommend using [Cyberduck](https://cyberduck.io/) to download the BOBs Repos
 ![cyberduck screenshot](../images/cyberduck_screenshot.png)
 
 
-### Organization of BOBS Repository Data in S3 Bucket
+## Organization of BOBS Repository Data
 The top-level directory contains all participants folders named by subject ID, each of which contains session folders that indicate the age at which the MRI images were acquired (eg ses-1mo acquired at 1 month old chronological age). The T1w and T2w image files and accompanying segmentation files are located in the `anat` subdirectory under session following [BIDS Derivatives](https://bids-specification.readthedocs.io/en/stable/derivatives/introduction.html) data structure requirements.
 
 In addition, the top-level directory also contains 2 files: a `dataset_description.json` and `participants.tsv` file that contain a description of the dataset and list of subject IDs and sessions, respectively, following [BIDS specification](https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html#modality-agnostic-files). 
