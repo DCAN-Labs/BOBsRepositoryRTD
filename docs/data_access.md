@@ -15,11 +15,11 @@ If you wish to simply view the brain segmentations overlaid on their associated 
 
 The link will direct you to the first subject in the repository. To scroll, use the bar at the top left. 
 
-![first brainbox screenshot](../images/brainbox_atfirst.png) ![second brainbox screenshot](../images/brainbox_scroll.png)
+![first brainbox screenshot](images/brainbox_atfirst.png) ![second brainbox screenshot](images/brainbox_scroll.png)
 
 After selecting another subject's anatomical image to view, remember to also select the label set json with the matching subject ID to see the segmentation overlay. To select another subject to open in a new window, click the full file name, otherwise just click the space to the right of the file name to just change the subject within the frame (see arrows below). 
 
-![third brainbox screenshot](../images/brainbox_newsubject.png)
+![third brainbox screenshot](images/brainbox_newsubject.png)
 
 ## How to Download 
 
@@ -37,7 +37,7 @@ You can also use [Cyberduck](https://cyberduck.io/) to download the BOBs Reposit
 5. Expand the More Options tab and enter for Path: `future/path/to/data`
 6. Click *Connect*
 
-![cyberduck screenshot](../images/cyberduck_screenshot.png)
+![cyberduck screenshot](images/cyberduck_screenshot.png)
 
 
 ## Organization of BOBS Repository Data
@@ -47,4 +47,4 @@ In addition, the top-level directory also contains 2 files: a `dataset_descripti
 
 Here is an example of the directory structure using fake subject ID numbers:
 
-![tree](../images/s3_tree.png)
+![tree](images/s3_tree.png)
