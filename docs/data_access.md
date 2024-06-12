@@ -1,6 +1,6 @@
 # How to Access the Repository
   
-## Viewing the data on BrainBox - *TO DO: add screenshots*
+## Viewing the data on BrainBox 
 
 If you wish to simply view the brain segmentations overlaid on their associated T1w and T2w images, we have created repositories on BrainBox for each of the age bins located here:
 
