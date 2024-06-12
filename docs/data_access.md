@@ -16,6 +16,11 @@ https://brainbox.pasteur.fr/project/BOBsRepository8mo
 After selecting a specific anatomical to view, remember to also select the label set json with the matching subject ID to see the segmentation overlay.
 
 ## How to Download 
+
+### Quick Download Option
+
+Click [here](https://bobsrepository.s3.amazonaws.com/bobsrepository.zip) to download a zip file containing the full contents of the repository via your web browser 
+
 ### Using Cyberduck to download data locally
 
 We recommend using [Cyberduck](https://cyberduck.io/) to download the BOBs Repository image files locally. After downloading and opening Cyberduck, do the following to connect to the data repository bucket stored on Amazon Web Services S3 bucket:
