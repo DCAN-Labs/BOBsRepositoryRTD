@@ -7,5 +7,5 @@ nav:
   - Overview: 
       - Table of Contents: contents.md
       - About: index.md
-      - Accessing Repository: data_access.md
+      - Access the Repository: data_access.md
       
