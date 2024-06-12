@@ -1,7 +1,5 @@
 # BOBs Repsitory
 
-## Read the Docs
-
 <div class="admonition attention">
     <p class="first admonition-title">Attention</p>
     <p class="last">
