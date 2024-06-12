@@ -4,12 +4,12 @@
 
 If you wish to simply view the brain segmentations overlaid on their associated T1w and T2w images, we have created repositories on BrainBox for each of the age bins located here:
 
-https://brainbox.pasteur.fr/project/BOBsRepository1mo 
-https://brainbox.pasteur.fr/project/BOBsRepository2mo 
-https://brainbox.pasteur.fr/project/BOBsRepository3mo 
-https://brainbox.pasteur.fr/project/BOBsRepository4mo 
-https://brainbox.pasteur.fr/project/BOBsRepository5mo 
-https://brainbox.pasteur.fr/project/BOBsRepository6mo 
+[BOBsRepository1mo](https://brainbox.pasteur.fr/project/BOBsRepository1mo)  
+https://brainbox.pasteur.fr/project/BOBsRepository2mo  
+https://brainbox.pasteur.fr/project/BOBsRepository3mo  
+https://brainbox.pasteur.fr/project/BOBsRepository4mo  
+https://brainbox.pasteur.fr/project/BOBsRepository5mo  
+https://brainbox.pasteur.fr/project/BOBsRepository6mo  
 https://brainbox.pasteur.fr/project/BOBsRepository7mo  
 https://brainbox.pasteur.fr/project/BOBsRepository8mo
 
