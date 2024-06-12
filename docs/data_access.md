@@ -31,7 +31,7 @@ We recommend using [Cyberduck](https://cyberduck.io/) to download the BOBs Repos
 5. Expand the More Options tab and enter for Path: `future/path/to/data`
 6. Click *Connect*
 
-![cyberduck screenshot](images/cyberduck_screenshot.png)
+![cyberduck screenshot](../images/cyberduck_screenshot.png)
 
 
 ### Organization of BOBS Repository Data in S3 Bucket
@@ -41,4 +41,4 @@ In addition, the top-level directory also contains 2 files: a `dataset_descripti
 
 Here is an example of the directory structure using fake subject ID numbers:
 
-![tree](images/s3_tree.png)
+![tree](../images/s3_tree.png)
