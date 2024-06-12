@@ -5,13 +5,13 @@
 If you wish to simply view the brain segmentations overlaid on their associated T1w and T2w images, we have created repositories on BrainBox for each of the age bins located here:
 
 [BOBsRepository1mo](https://brainbox.pasteur.fr/project/BOBsRepository1mo)  
-https://brainbox.pasteur.fr/project/BOBsRepository2mo  
-https://brainbox.pasteur.fr/project/BOBsRepository3mo  
-https://brainbox.pasteur.fr/project/BOBsRepository4mo  
-https://brainbox.pasteur.fr/project/BOBsRepository5mo  
-https://brainbox.pasteur.fr/project/BOBsRepository6mo  
-https://brainbox.pasteur.fr/project/BOBsRepository7mo  
-https://brainbox.pasteur.fr/project/BOBsRepository8mo
+[BOBsRepository2mo](https://brainbox.pasteur.fr/project/BOBsRepository2mo)  
+[BOBsRepository3mo](https://brainbox.pasteur.fr/project/BOBsRepository3mo)  
+[BOBsRepository4mo](https://brainbox.pasteur.fr/project/BOBsRepository4mo)  
+[BOBsRepository5mo](https://brainbox.pasteur.fr/project/BOBsRepository5mo)  
+[BOBsRepository6mo](https://brainbox.pasteur.fr/project/BOBsRepository6mo)  
+[BOBsRepository7mo](https://brainbox.pasteur.fr/project/BOBsRepository7mo)  
+[BOBsRepository8mo](https://brainbox.pasteur.fr/project/BOBsRepository8mo)
 
 After selecting a specific anatomical to view, remember to also select the label set json with the matching subject ID to see the segmentation overlay.
 
@@ -31,7 +31,7 @@ We recommend using [Cyberduck](https://cyberduck.io/) to download the BOBs Repos
 5. Expand the More Options tab and enter for Path: `future/path/to/data`
 6. Click *Connect*
 
-![cyberduck screenshot](https://github.com/DCAN-Labs/bobsrepo/blob/main/cyberduck_screenshot.png)
+![cyberduck screenshot](images/cyberduck_screenshot.png)
 
 
 ### Organization of BOBS Repository Data in S3 Bucket
@@ -41,4 +41,4 @@ In addition, the top-level directory also contains 2 files: a `dataset_descripti
 
 Here is an example of the directory structure using fake subject ID numbers:
 
-![tree](https://github.com/DCAN-Labs/bobsrepo/blob/main/s3_tree.png)
+![tree](images/s3_tree.png)
