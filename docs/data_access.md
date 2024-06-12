@@ -13,7 +13,13 @@ If you wish to simply view the brain segmentations overlaid on their associated 
 [BOBsRepository7mo](https://brainbox.pasteur.fr/project/BOBsRepository7mo)  
 [BOBsRepository8mo](https://brainbox.pasteur.fr/project/BOBsRepository8mo)
 
-After selecting a specific anatomical to view, remember to also select the label set json with the matching subject ID to see the segmentation overlay.
+The link will direct you to the first subject in the repository. To scroll, use the bar at the top left. 
+
+![first brainbox screenshot](../images/brainbox_atfirst.png) ![second brainbox screenshot](../images/brainbox_scroll.png)
+
+After selecting another subject's anatomical image to view, remember to also select the label set json with the matching subject ID to see the segmentation overlay. To select another subject to open in a new window, click the full file name, otherwise just click the space to the right of the file name to just change the subject within the frame (see arrows below). 
+
+![third brainbox screenshot](../images/brainbox_newsubject.png)
 
 ## How to Download 
 
