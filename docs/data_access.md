@@ -31,10 +31,10 @@ Click [here](https://bobsrepository.s3.amazonaws.com/bobsrepository.zip) to down
 
 You can also use [Cyberduck](https://cyberduck.io/) to download the BOBs Repository image files locally. We often recommend this route as you can view the file structure and select individual files before downloading. After downloading and opening Cyberduck, do the following to connect to the data repository bucket stored on Amazon Web Services S3 bucket:
 
-1. Click *Open Connection*
+1. If you are on a Mac, select *Bookmark*>*New Bookmark*. Otherwise, you can simply click *Open Connection*
 2. In the dropdown menu at the top of the dialogue box, select *Amazon S3* and the Server box will automatically populate with *s3.amazonaws.com*
 4. Check *Anonymous Login* (if you are unable to check this box, type "anonymous" into the Access Key ID field instead) 
-5. Expand the More Options tab and enter for Path: `future/path/to/data`
+5. Expand the More Options tab and enter for Path: `bobsrepository`
 6. Click *Connect*
 
 ![cyberduck screenshot](./images/cyberduck_screenshot.png)
