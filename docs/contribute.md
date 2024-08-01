@@ -10,7 +10,9 @@ This form will ask for your name/group and institution, what changes/additions y
 
 ### Send your data/segmentations to MIDB
 
-We recommend sending a link to a Box folder. MIDB will upload the data to the repository and link your documentation to the repository information.
+Data and segmentations **must** be in [BIDS format](https://bids.neuroimaging.io/) and connected to DataLad (Documentation on connecting to DataLab will be linked here soon). 
+
+To send your data/segmentations, we currently recommend a link to a Box folder. MIDB will upload the data to the repository and link your documentation to the repository information.
 
 
 ## Looking Forward
