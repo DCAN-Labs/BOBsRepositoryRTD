@@ -1,5 +1,7 @@
 # How to Contribute to the Repository
 
+We welcome neuroanatomists and other experts to further refine these segmentations, delineate additional ROIs, segment existing ROIs based on alternate research-based interpretations of best practice, etc, and make your updated data available on our open repository. To contribute, please follow the steps below.
+
 ## Current System
 
 ### Fill out a google form with your information
