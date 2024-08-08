@@ -2,7 +2,9 @@
 
 ## How to Download 
 
-Click [here](https://bobsrepository.s3.amazonaws.com/index.html) to browse the repository contents and download individual files. If you wish to download the entire V1.0 repository, select the zip file [here](https://bobsrepository.s3.amazonaws.com/V1.0.zip).
+Explore the repository contents and download individual files by clicking [here](https://bobsrepository.s3.amazonaws.com/index.html). For a comprehensive download of the entire V1.0 repository, select the ZIP file available [here](https://bobsrepository.s3.amazonaws.com/V1.0.zip).
+
+The contents of the repository are also accessible and can be downloaded anonymously using open-source clients such as [Cyberduck](https://cyberduck.io/).
   
 ## Viewing the data on BrainBox 
 
