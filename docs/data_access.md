@@ -1,8 +1,12 @@
 # How to Access the Repository
+
+## How to Download 
+
+Click [here](https://bobsrepository.s3.amazonaws.com/index.html) to browse the repository contents and download individual files. If you wish to download the entire V1.0 repository, select the zip file [here](https://bobsrepository.s3.amazonaws.com/V1.0.zip).
   
 ## Viewing the data on BrainBox 
 
-If you wish to simply view the brain segmentations overlaid on their associated T1w and T2w images, we have created repositories on BrainBox for each of the age bins located here:
+If you wish to simply view the data without downloading, you can view the brain segmentations overlaid on their associated T1w and T2w images for each of the age bins on BrainBox:
 
 [BOBsRepository1mo](https://brainbox.pasteur.fr/project/BOBsRepository1mo)  
 [BOBsRepository2mo](https://brainbox.pasteur.fr/project/BOBsRepository2mo)  
@@ -20,25 +24,6 @@ The link will direct you to the first subject in the repository. To scroll, use 
 After selecting another subject's anatomical image to view, remember to also select the label set json with the matching subject ID to see the segmentation overlay. To select another subject to open in a new window, click the full file name, otherwise just click the space to the right of the file name to just change the subject within the frame (see arrows below). 
 
 ![third brainbox screenshot](./images/brainbox_newsubject.png)
-
-## How to Download 
-
-### Option 1: Via your web browser
-
-Click [here](https://bobsrepository.s3.amazonaws.com/index.html) to browse the repository contents and download files
-
-### Option 2: Using Cyberduck to download data locally
-
-You can also use [Cyberduck](https://cyberduck.io/) to download the BOBs Repository image files locally. We often recommend this route as you can view the file structure and select individual files before downloading. After downloading and opening Cyberduck, do the following to connect to the data repository bucket stored on Amazon Web Services S3 bucket:
-
-1. If you are on a Mac, select *Bookmark*>*New Bookmark*. Otherwise, you can simply click *Open Connection*
-2. In the dropdown menu at the top of the dialogue box, select *Amazon S3* and the Server box will automatically populate with *s3.amazonaws.com*
-4. Check *Anonymous Login* (if you are unable to check this box, type "anonymous" into the Access Key ID field instead) 
-5. Expand the More Options tab and enter for Path: `bobsrepository`
-6. Click *Connect*
-
-![cyberduck screenshot](./images/cyberduck_screenshot.png)
-
 
 ## Organization of BOBS Repository Data
 The top-level directory contains all participants folders named by subject ID, each of which contains session folders that indicate the age at which the MRI images were acquired (eg ses-1mo acquired at 1 month old chronological age). The T1w and T2w image files and accompanying segmentation files are located in the `anat` subdirectory under session following [BIDS Derivatives](https://bids-specification.readthedocs.io/en/stable/derivatives/introduction.html) data structure requirements.
