@@ -23,9 +23,9 @@ After selecting another subject's anatomical image to view, remember to also sel
 
 ## How to Download 
 
-### Option 1: Quick Download Option
+### Option 1: Via your web browser
 
-Click [here](https://bobsrepository.s3.amazonaws.com/bobsrepository.zip) to download a zip file containing the full contents of the repository via your web browser 
+Click [here](https://bobsrepository.s3.amazonaws.com/index.html) to browse the repository contents and download files
 
 ### Option 2: Using Cyberduck to download data locally
 
