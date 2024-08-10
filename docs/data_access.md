@@ -2,7 +2,7 @@
 
 ## How to Download 
 
-Explore the repository contents and download individual files by clicking [here](https://bobsrepository.s3.amazonaws.com/index.html). For a comprehensive download of the entire V1.0 repository, select the ZIP file available [here](https://bobsrepository.s3.amazonaws.com/V1.0.zip).
+Explore the repository contents and download individual files by clicking [here](https://bobsrepository.s3.amazonaws.com/index.html). For a comprehensive download of the entire V1.0 repository, click on [`Download Entire Repository`](https://bobsrepository.s3.us-east-2.amazonaws.com/V1.0.zip) at the bottom of the page.
 
 The contents of the repository are also accessible and can be downloaded anonymously using open-source clients such as [Cyberduck](https://cyberduck.io/).
   
