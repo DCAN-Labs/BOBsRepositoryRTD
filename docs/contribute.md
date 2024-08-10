@@ -1,22 +1,22 @@
 # How to Contribute to the Repository - 🚧 UNDER CONSTRUCTION 🚧
 
-We welcome neuroanatomists and other experts to further refine these segmentations, delineate additional ROIs, segment existing ROIs based on alternate research-based interpretations of best practice, etc, and make your updated data available on our open repository. To contribute, please follow the steps below.
+We welcome neuroanatomists and other experts to further refine these segmentations, delineate additional ROIs, segment existing ROIs based on alternate research-based interpretations of best practice, etc, and make your updated data available on our open repository. 
 
-## STEP 1: Submit Contribution Request Form
-
-Please fill out the form belllow to provide us with your name, institution, updates or additions you plan to make to the repository data, and where researchers can find documentation on your data and/or segmentation protocol. We will then connect with you to confirm that your request has been approved and add you as a collaborator to the [DataLad GitHub repository](https://github.com/DCAN-Labs/bobsrepository).
-
-[Submit a BOBs Repository Contribution](https://docs.google.com/forms/d/e/1FAIpQLSdppXSfL7RZ2jxo5t8ufh2jZ5tgNLaAKb5pzfOJ8md9F22PsQ/viewform?usp=sf_link)
-
-## STEP 2: Downloading, Updating, and Contributing to the Repository Using DataLad Version Control
-
-We use DataLad for version control of our data and require that contributors do so as well to maintain data provenance. Please note that this process requires basic command line experience. Please refer to the following resources and reach out to us if you have any questions or concerns!
+Importantly, we use DataLad for version control of our data and require that contributors do so as well to maintain data provenance. Please note that this process requires basic command line experience. Please refer to the following resources and reach out to us if you have any questions or concerns!
 
 [DataLad Introduction to The Command Line](https://handbook.datalad.org/en/latest/intro/howto.html#the-command-line)<br> 
 [DataLad Handbook](https://handbook.datalad.org/en/latest/index.html)<br>
 [DataLad Cheatsheet from Handbook](https://handbook.datalad.org/en/latest/basics/101-136-cheatsheet.html)<br>
 [DataLad Cheatsheet (Jade Sea)](https://handbook.datalad.org/en/latest/basics/101-136-cheatsheet.html)
 
+To contribute, please follow the steps below.
+
+## STEP 1: Submit Contribution Request Form
+
+Before getting started, please fill out the [Request Form](https://docs.google.com/forms/d/e/1FAIpQLSdppXSfL7RZ2jxo5t8ufh2jZ5tgNLaAKb5pzfOJ8md9F22PsQ/viewform?usp=sf_link) to provide us with your name, institution, updates or additions you plan to make to the repository data, and where researchers can find documentation on your data and/or segmentation protocol. We will then connect with you to confirm that your request has been approved and add you as a collaborator to the [DataLad GitHub repository](https://github.com/DCAN-Labs/bobsrepository). **You must have the appropriate permissions before proceeding with the next steps, otherwise your data will not be properly version controlled.**
+
+
+## STEP 2: Using DataLad Version Control to Download, Update, and Contribute to the Repository
 
 ### Initial Setup and Requirements
 **Install DataLad** following [these instructions](https://handbook.datalad.org/en/latest/intro/installation.html#installation-and-configuration) according to your operating system.
@@ -27,7 +27,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-**Create free Amazon AWS account** [here](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222&p=free&c=hp&z=1). This is required in order to download the repository via DataLad to maintain data provenance. Once you have set up an account, click on your username in the top right-hand corner of the screen and select `Security Credentials` from the drop down menu. Scroll down the page to the `Access keys` section, select `Create access key` in the upper right-hand corner of the section, and follow the prompts from there to obtain access and secret keys. **Make sure to copy and store your access and secret keys in a secure location to reference in the future!!**
+**Create free Amazon AWS account** [here](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222&p=free&c=hp&z=1). This is required in order to download the repository via DataLad. Once you have set up an account, click on your username in the top right-hand corner of the screen and select `Security Credentials` from the drop down menu. Scroll down the page to the `Access keys` section, select `Create access key` in the upper right-hand corner of the section, and follow the prompts from there to obtain access and secret keys. **Make sure to copy and store your access and secret keys in a secure location to reference in the future!!**
 
 ### Clone the Repository Using DataLad
 On the command line, cd into to the directory where you want to download the repository locally. If you installed DataLad in a virtual environment, remember to activate it. Export your AWS access and secret keys you obtained from setting up your Amazon AWS account as environmental variables:
