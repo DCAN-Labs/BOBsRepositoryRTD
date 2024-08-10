@@ -1,12 +1,10 @@
-site_name: BOBs Repository ReadTheDocs
+site_name: BOBs Repository
 theme: readthedocs
 plugins:
   - search
 docs_dir: docs
 nav:
-  - Overview: 
-      - Table of Contents: contents.md
-      - About: index.md
-      - Access the Repository: data_access.md
-      - Contribute to the Repository: contribute.md
+  - Overview: index.md
+  - Access the Repository: data_access.md
+  - Contribute to the Repository: contribute.md
       
