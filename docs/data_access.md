@@ -1,4 +1,4 @@
-# How to Access the Repository
+# View or Download Data
 
 ## How to Download 
 
