@@ -4,7 +4,7 @@ plugins:
   - search
 docs_dir: docs
 nav:
-  - Access the Repository: data_access.md
+  - View or Download Repository: data_access.md
   - Contribute to the Repository: contribute.md
   - Additional Resources: resources.md
       
