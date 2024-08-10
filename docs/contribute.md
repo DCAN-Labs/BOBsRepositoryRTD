@@ -38,7 +38,7 @@ export AWS_SECRET_ACCESS_KEY="<secret key>"
 
 And then clone:
 ```
-datalad clone https://github.com/bobsrepository.git
+datalad clone https://github.com/DCAN-Labs/bobsrepository.git
 ```
 
 Note that the GitHub repository does not actually contain the annexed files themselves, but rather symlinks to the data files stored on AWS. To download the annexed file content from AWS, cd into the cloned repository folder and run `datalad get` (note that it will take a few minutes to download the full repository contents):
