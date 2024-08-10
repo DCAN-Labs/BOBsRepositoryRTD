@@ -41,7 +41,7 @@ And then clone:
 datalad clone https://github.com/bobsrepository.git
 ```
 
-Note that the GitHub repository does not actually contain the annexed files themselves, but rather symlinks to the data files stored on AWS. To download the annexed file content from AWS, cd into the cloned repository folder and run `datalad get` the following (note that it will take a few minutes to download the full repository contents):
+Note that the GitHub repository does not actually contain the annexed files themselves, but rather symlinks to the data files stored on AWS. To download the annexed file content from AWS, cd into the cloned repository folder and run `datalad get` (note that it will take a few minutes to download the full repository contents):
 ```
 cd bobsrepository
 datalad get . -r
@@ -61,20 +61,17 @@ First unlock the folder contents and then copy the entire contents of `V1.0` to 
 datalad unlock V1.0
 cp -r V1.0 <NEW-FOLDER-NAME>
 ```
-Next save and push your changes by running:
+Finally, commit your changes using `datalad save` and push them to GitHub by running:
 ```
 datalad save -m "Description of changes"
-git annex export master --to aws
 datalad push --to github
 ```
 
-From here, you can modify the files within your working directory as you please, just remember to use `datalad unlock <filename>` before making modifications. 
+From here, you can modify the files within your working directory as you please. The data is automically locked again after running `datalad save`, so remember to use `datalad unlock <filename>` before modifying a given file. 
 
 ### Submitting a Pull Request Once Your Data is Ready to Share
-Once you have completed your updates and are ready to share to the repository hosted on AWS, please ensure that you have run a final datalad save and push to your branch. Also ensure that the directory structure and filenames within your working directory match that of the source directory exactly in order to be in compliance with BIDS standards.
+Once you have completed your updates and are ready to make your data publicly available on AWS, please ensure that you have run a final datalad save and push to your branch. Also ensure that the directory structure and filenames within your working directory match that of the source directory exactly in order to be in compliance with BIDS standards.
 
 When ready, submit a [PR (pull request)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to request to merge your branch with the main repository. We will then review your data and merge if there are no issues.
-
-
 
 
