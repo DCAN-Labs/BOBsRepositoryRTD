@@ -8,7 +8,7 @@ Please fill out the form belllow to provide us with your name, institution, upda
 
 [Submit a BOBs Repository Contribution](https://docs.google.com/forms/d/e/1FAIpQLSdppXSfL7RZ2jxo5t8ufh2jZ5tgNLaAKb5pzfOJ8md9F22PsQ/viewform?usp=sf_link)
 
-## STEP 2: Downloading, Updating, and Contributing Version-Controlled Repository
+## STEP 2: Downloading, Updating, and Contributing to the Repository Using DataLad Version Control
 
 We use DataLad for version control of our data and require that contributors do so as well to maintain data provenance. Please note that this process requires basic command line experience. Please refer to the following resources and reach out to us if you have any questions or concerns!
 
