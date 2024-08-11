@@ -41,7 +41,12 @@ And then clone:
 datalad clone https://github.com/DCAN-Labs/bobsrepository.git
 ```
 
-Note that the GitHub repository does not actually contain the annexed files themselves, but rather symlinks to the data files stored on AWS. To download the annexed file content from AWS, cd into the cloned repository folder and run `datalad get` (note that it will take a few minutes to download the full repository contents):
+You will see the message below, but it's nothing to worry about. It simply indicates that the GitHub repository does not actually contain the annexed files themselves (but rather symlinks to the data files stored on AWS):
+```
+[INFO   ] Remote origin not usable by git-annex; setting annex-ignore
+```
+
+To download the annexed file content from AWS, cd into the cloned repository folder and run `datalad get` (note that it will take a few minutes to download the full repository contents):
 ```
 cd bobsrepository
 datalad get . -r
