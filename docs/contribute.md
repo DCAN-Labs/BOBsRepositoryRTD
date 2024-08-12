@@ -41,9 +41,11 @@ And then clone:
 datalad clone https://github.com/DCAN-Labs/bobsrepository.git
 ```
 
-You will see the message below, but it's nothing to worry about. It simply indicates that the GitHub repository does not actually contain the annexed files themselves (but rather symlinks to the data files stored on AWS):
+If you see INFO messages such as the ones below, it's nothing to worry about. The first simply indicates that the GitHub repository does not actually contain the annexed files themselves (but rather symlinks to the data files stored on AWS). As long as there are no error messages and it says `install(ok)`, then it should have worked:
 ```
 [INFO   ] Remote origin not usable by git-annex; setting annex-ignore
+[INFO   ] https://github.com/DCAN-Labs/bobsrepository.git/config download failed: Not Found
+install(ok)
 ```
 
 To download the annexed file content from AWS, cd into the cloned repository folder and run `datalad get` (note that it will take a few minutes to download the full repository contents):
