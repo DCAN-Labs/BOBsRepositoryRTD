@@ -68,7 +68,7 @@ First unlock the folder contents and then copy the entire contents of `V1.0` to 
 datalad unlock V1.0
 cp -r V1.0 <NEW-FOLDER-NAME>
 ```
-Finally, commit your changes using `datalad save` and push them to GitHub by running:
+Finally, use `datalad save` (this command effectively combines `git add` and `git commit`) and push your changes:
 ```
 datalad save -m "Description of changes"
 datalad push --to github
