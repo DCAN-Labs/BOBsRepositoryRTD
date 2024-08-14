@@ -77,7 +77,7 @@ datalad push --to github
 From here, you can modify the files within your working directory as you please. The data is automically locked again after running `datalad save`, so remember to use `datalad unlock <filename>` before modifying a given file. 
 
 ### Submitting a Pull Request Once Your Data is Ready to Share
-Once you have completed your updates and are ready to make your data publicly available on AWS, please ensure that you have run a final datalad save and push to your branch. Also ensure that the directory structure and filenames within your working directory match that of the source directory exactly in order to be in compliance with BIDS standards.
+Once you have completed your updates and are ready to make your data publicly available on AWS, please ensure that you have run a final datalad save and push to your branch. Also ensure that the directory structure and filenames within your working directory match that of the source directory exactly in order to be in compliance with [BIDS standards](https://bids.neuroimaging.io/).
 
 When ready, submit a [PR (pull request)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to request to merge your branch with the main repository. We will then review your data and merge if there are no issues.
 
