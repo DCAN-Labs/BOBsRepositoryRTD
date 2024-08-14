@@ -3,8 +3,6 @@
 ## Organization of BOBS Repository Data
 The data structure and filenaming are organized following [BIDS standards](https://bids.neuroimaging.io/). The BIDS directory contains `dataset_description.json` and `participants.tsv` files (that contain a description of the dataset and list of subject IDs and sessions, respectively) in addition to participant folders named by subject ID. Each subject folder contains session folders that indicate the age at which the MRI images were acquired (eg ses-1mo means that the data was acquired at 1 month old chronological age). The T1w and T2w image files and accompanying segmentation files are located in the `anat` subdirectory under session.
 
-Here is an example of the directory structure using fake subject ID numbers:
-
 ![tree](./images/s3_tree.png)
 
 ## How to Download 
