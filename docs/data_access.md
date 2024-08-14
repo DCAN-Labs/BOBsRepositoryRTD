@@ -1,5 +1,12 @@
 # View or Download Data
 
+## Organization of BOBS Repository Data
+The data structure and filenaming are organized following [BIDS standards](https://bids.neuroimaging.io/). The BIDS directory contains `dataset_description.json` and `participants.tsv` files (that contain a description of the dataset and list of subject IDs and sessions, respectively) in addition to participant folders named by subject ID. Each subject folder contains session folders that indicate the age at which the MRI images were acquired (eg ses-1mo means that the data was acquired at 1 month old chronological age). The T1w and T2w image files and accompanying segmentation files are located in the `anat` subdirectory under session.
+
+Here is an example of the directory structure using fake subject ID numbers:
+
+![tree](./images/s3_tree.png)
+
 ## How to Download 
 
 Explore the repository contents and download individual files by clicking [here](https://bobsrepository.s3.amazonaws.com/index.html). For a comprehensive download of the entire V1.0 repository, click on [`Download Entire Repository`](https://bobsrepository.s3.us-east-2.amazonaws.com/V1.0.zip) at the bottom of the page.
@@ -26,12 +33,3 @@ The link will direct you to the first subject in the repository. To scroll, use 
 After selecting another subject's anatomical image to view, remember to also select the label set json with the matching subject ID to see the segmentation overlay. To select another subject to open in a new window, click the full file name, otherwise just click the space to the right of the file name to just change the subject within the frame (see arrows below). 
 
 ![third brainbox screenshot](./images/brainbox_newsubject.png)
-
-## Organization of BOBS Repository Data
-The top-level directory contains all participants folders named by subject ID, each of which contains session folders that indicate the age at which the MRI images were acquired (eg ses-1mo acquired at 1 month old chronological age). The T1w and T2w image files and accompanying segmentation files are located in the `anat` subdirectory under session following [BIDS Derivatives](https://bids-specification.readthedocs.io/en/stable/derivatives/introduction.html) data structure requirements.
-
-In addition, the top-level directory also contains 2 files: a `dataset_description.json` and `participants.tsv` file that contain a description of the dataset and list of subject IDs and sessions, respectively, following [BIDS specification](https://bids-specification.readthedocs.io/en/stable/modality-agnostic-files.html#modality-agnostic-files). 
-
-Here is an example of the directory structure using fake subject ID numbers:
-
-![tree](./images/s3_tree.png)
