@@ -71,7 +71,7 @@ cp -r V1.0 <NEW-FOLDER-NAME>
 Finally, use `datalad save` (this command effectively combines `git add` and `git commit`) and push your changes:
 ```
 datalad save -m "Description of changes"
-datalad push --to github
+datalad push --to origin
 ```
 
 From here, you can modify the files within your working directory as you please. The data is automically locked again after running `datalad save`, so remember to use `datalad unlock <filename>` before modifying a given file. 
