@@ -30,7 +30,7 @@ git config --global user.email "your.email@example.com"
 **Create free Amazon AWS account** [here](https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?refid=em_127222&p=free&c=hp&z=1). This is required in order to download the repository via DataLad. Once you have set up an account, click on your username in the top right-hand corner of the screen and select `Security Credentials` from the drop down menu. Scroll down the page to the `Access keys` section, select `Create access key` in the upper right-hand corner of the section, and follow the prompts from there to obtain access and secret keys. **Make sure to copy and store your access and secret keys in a secure location to reference in the future!!**
 
 ### Clone the Repository Using DataLad
-On the command line, cd into to the directory where you want to download the repository locally. If you installed DataLad in a virtual environment, remember to activate it. Export your AWS access and secret keys you obtained from setting up your Amazon AWS account as environmental variables:
+On the command line, cd into to the directory where you want to download the repository locally. If you installed DataLad in a virtual environment, remember to activate it. Export your AWS access and secret keys you obtained from setting up your Amazon AWS account as environmental variables (remember that you will need to set these environmental variables each time you open a new terminal):
 ```
 export AWS_ACCESS_KEY_ID="<access key>"
 export AWS_SECRET_ACCESS_KEY="<secret key>"
