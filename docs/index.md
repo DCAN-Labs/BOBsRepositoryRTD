@@ -1,12 +1,5 @@
 # Baby Open Brains Repository
 
-<div class="admonition attention">
-    <p class="first admonition-title">Attention</p>
-    <p class="last">
-        The RTD is currently under construction. Sections are being reorganized and expanded. Please be patient as we try to improve this resource
-    </p>
-</div>
-
 ### About
 
 The Baby Open Brains Repository, or BOBs Repository, is an open source resource of infant brain segmentations. We encourage new additions and changes to this open source repository, enabling a community-driven resource that will improve over time and extend into new ages and protocols. 
