@@ -1,9 +1,38 @@
 # View or Download the BOBS Repository
 
 ## Organization of the BOBS Repository Data
-The data structure and filenaming are organized following [BIDS standards](https://bids.neuroimaging.io/). The BIDS directory contains `dataset_description.json` and `participants.tsv` files (that contain a description of the dataset and list of subject IDs and sessions, respectively) in addition to participant folders named by subject ID. Each subject folder contains session folders that indicate the age at which the MRI images were acquired (eg ses-1mo means that the data was acquired at 1 month old chronological age). The T1w and T2w image files and accompanying segmentation files are located in the `anat` subdirectory under session:
+The data structure and filenaming are organized following [BIDS standard](https://bids.neuroimaging.io/):
+```
+bobsrepository/
+|__ sub-<LABEL>/
+|   |__ ses-<AGE>mo/
+|       |__ anat/
+|           |__sub-<LABEL>_ses-<AGE>_space-INFANTMNIacpc_desc-T1w.nii.gz
+|           |__sub-<LABEL>_ses-<AGE>_space-INFANTMNIacpc_desc-T1w.json
+|           |__sub-<LABEL>_ses-<AGE>_space-INFANTMNIacpc_desc-T2w.nii.gz
+|           |__sub-<LABEL>_ses-<AGE>_space-INFANTMNIacpc_desc-T2w.json
+|           |__sub-<LABEL>_ses-<AGE>_space-INFANTMNIacpc_desc-aseg_dseg.nii.gz
+|           |__sub-<LABEL>_ses-<AGE>_space-INFANTMNIacpc_desc-aseg_dseg.json
+|
+|__ phenotype/
+|   |__ sessions.json
+|   |__ sessions.tsv
+|
+|__ dataset_description.json
+|__ dseg.tsv
+|__ README.md
+|__ index.html #.bigsignore
+|__ V1.0.zip #.bigsignore
+```
 
-![tree](./images/s3_tree.png)
+##### Subject & Phenotypic Data 
+The BIDS directory contains subject folders named by subject ID, which contain session folder named by the age at which the MRI images were acquired (e.g. `ses-1mo` means that the data was acquired at 1 month old chronological age). Each session folder contains the T1w and T2w image files and accompanying segmentation files under the `anat/` subdirectory. The repository also contains a `phenotype/` folder containing a global `sessions.tsv` file with a list of subject IDs and sessions as well as phenotypic information such as sex assigned and gestational age at birth (with full field descriptions available in `sessions.json`).
+
+##### Additional BIDS Standard Files
+Additional BIDS standard files in the repository include `README.md` and `dataset_description.json`, providing a brief description of the repository and dataset. The repository also contains `dseg.tsv`, which contains the FreeSurfer label descriptions (including the label numbers and default colors when visualized for each segmented brain region).
+
+##### Additional Files (non-BIDS standard)
+Finally, the repository contains a few files (e.g. `index.html` and `V1.0.zip`) that are not part of BIDS standard, but are included for ease of access and download. The `index.html` file is a webpage that provides a list of all the files in the repository and links to download individual files. The `V1.0.zip` file is a zipped version of the entire repository. As new versions become available, older versions will continue to be accessible via the zip file.
 
 ## How to Download 
 
