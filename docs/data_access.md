@@ -35,7 +35,6 @@ Additional BIDS standard files in the repository include `README.md` and `datase
 Finally, the repository contains a few files (e.g. `index.html` and `V1.0.zip`) that are not part of BIDS standard, but are included for ease of access and download. The `index.html` file is a webpage that provides a list of all the files in the repository and links to download individual files. The `V1.0.zip` file is a zipped version of the entire repository. As new versions become available, older versions will continue to be accessible via the zip file.
 
 ## How to Download 
-
 Explore the repository contents and download individual files by clicking [here](https://bobsrepository.s3.amazonaws.com/index.html). For a comprehensive download of the entire V1.0 repository, click on [`Download Entire Repository`](https://bobsrepository.s3.us-east-2.amazonaws.com/V1.0.zip) at the bottom of the page.
 
 The contents of the repository are also accessible and can be downloaded anonymously using open-source clients such as [Cyberduck](https://cyberduck.io/).
