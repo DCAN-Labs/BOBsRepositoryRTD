@@ -5,6 +5,9 @@ markdown_extensions:
   - toc:
       permalink: '🔗' 
 
+extra_javascript:
+  - js/extra.js
+
 plugins:
   - search
 docs_dir: docs
