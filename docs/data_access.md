@@ -39,7 +39,7 @@ There are several options for exploring and downloading the BOBS Repository data
 
 **Amazon AWS**: Visit the public Amazon AWS S3 bucket to explore and download individual files or the entire repository. The bucket is located at [bobsrepository](https://bobsrepository.s3.amazonaws.com/index.html).
 
-**OpenNeuro**: The repository is available via OpenNeuro on the repository page [here](https://openneuro.org/datasets/ds005450/versions/0.9.0). See instructions for how to download data from OpenNeuro under the [Download](https://openneuro.org/datasets/ds005450/versions/0.9.0/download) tab.
+**OpenNeuro**: The repository is available via OpenNeuro on the repository page [here](https://openneuro.org/datasets/ds005450). See instructions for how to download data from OpenNeuro under the [Download](https://openneuro.org/datasets/ds005450/download) tab.
 
 **Open-Source Clients**: The repository is also accessible via open-source clients such as [Cyberduck](https://cyberduck.io/).
   
