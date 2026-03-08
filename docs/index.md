@@ -1,6 +1,7 @@
 # Baby Open Brains Repository
 
 [![OSF Project](https://img.shields.io/badge/OSF-10.17605/OSF.IO/WDR78-blue)](https://doi.org/10.17605/OSF.IO/WDR78)
+[![Scientific Data](https://img.shields.io/badge/Scientific_Data-10.1038/s41597--025--05404--y-4B8BBE)](https://doi.org/10.1038/s41597-025-05404-y)
 
 ### About
 The Baby Open Brains Repository, or BOBs Repository, is an open source resource of infant brain segmentations. We encourage new additions and changes to this open source repository, enabling a community-driven resource that will improve over time and extend into new ages and protocols. Please see [Feczko & Stoyell et al., 2024](https://doi.org/10.1038/s41597-025-05404-y), "Baby Open Brains: An open-source dataset of infant brain segmentations," for more information.
